@@ -1,7 +1,7 @@
 {
   "name": "middle.messenger.praktikum.yandex",
   "version": "1.0.0",
-  "description": "### Откройте pull request в ветку main из ветки, где вы разрабатывали проект, и добавьте ссылку на этот pr в README.md в ветке main.  ### ВАЖНО: pull request должен называться “Sprint i” (i — номер спринта).",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,10 +11,13 @@
     "url": "git+https://github.com/MashaMoreva/middle.messenger.praktikum.yandex.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Masha Moreva",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MashaMoreva/middle.messenger.praktikum.yandex/issues"
   },
-  "homepage": "https://github.com/MashaMoreva/middle.messenger.praktikum.yandex#readme"
+  "homepage": "https://github.com/MashaMoreva/middle.messenger.praktikum.yandex#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
 }
