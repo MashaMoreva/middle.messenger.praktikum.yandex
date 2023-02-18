@@ -1,0 +1,20 @@
+.button {
+    font-family: 'Tkachenko Sketch 4F', Arial, Helvetica, sans-serif;
+    width: 350px;
+    height: 50px;
+    font-size: 30px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 100px;
+    padding: 0;
+    color: #4A4E5E;
+    background: linear-gradient(#ECEDF0, #CDD5E3);
+    transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+.button:hover {
+    transition: background-color .3s ease-in-out, color .3s ease-in-out;
+    background: linear-gradient(#CDD5E3, #989CA8);
+    color: #F8F7F8;
+    box-shadow: 5px 5px 10px rgba(74, 78, 94, 0.5);
+}

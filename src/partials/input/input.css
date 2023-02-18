@@ -1,0 +1,37 @@
+.input {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.input__label {
+    font-size: 25px;
+    line-height: 25px;
+}
+
+.input__item {
+    border: none;
+    padding: 0;
+    background-color: #F8F7F8;
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 3px;
+    color: #4a4e5e
+    /* border-bottom: 1px solid #4a4e5e; */
+}
+
+input[placeholder] {
+    font-family: 'Tkachenko Sketch 4F', Arial, Helvetica, sans-serif;
+}
+
+.input__item:focus {
+    outline: none;
+    border-bottom: 1px solid #4a4e5e;
+}
+
+.input__error {
+    color: red;
+    opacity: .5;
+    font-size: 13px;
+    line-height: 13px;
+}

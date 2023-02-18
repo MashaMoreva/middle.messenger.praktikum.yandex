@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    background-color: #F8F7F8;
+    max-width: 1440px;
+    height: 100vh;
+    margin: 100px auto 0 auto;
+    font-family: 'Tkachenko Sketch 4F', Arial, Helvetica, sans-serif;
+    color: #4A4E5E;
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 30px;
+}
+
+.div a {
+    color: #4A4E5E;
+}
+
+.form {
+    width: 350px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 10px rgba(74, 78, 94, 0.5);
+    border-radius: 5px;
+}
+
+.form__title {
+    margin: 0;
+    text-align: center;
+    font-size: 70px;
+}
+
+.form__input {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border: none;
+    margin: 40px 0 0 0;
+    padding: 0;
+    gap: 10px;
+}

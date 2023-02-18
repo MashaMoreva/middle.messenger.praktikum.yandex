@@ -1,0 +1,17 @@
+@font-face {
+    src:
+    url(../../static/fonts/Tkachenkosketch4f.woff) format('woff'),
+    url(../../static/fonts/Tkachenkosketch4f.woff2) format('woff2');
+    font-family: 'Tkachenko Sketch 4F';
+    font-style:  normal;
+    font-weight: 400;
+  }
+
+  @font-face {
+    src:
+    url(../../static/fonts/Tkachenkosketch4fbold.woff) format('woff'),
+    url(../../static/fonts/Tkachenkosketch4fbold.woff2) format('woff2');
+    font-family: 'Tkachenko Sketch 4F';
+    font-style:  normal;
+    font-weight: 700;
+  }
