@@ -9,7 +9,7 @@
     padding: 0;
     color: #4A4E5E;
     background: linear-gradient(#ECEDF0, #CDD5E3);
-    transition: background-color .3s ease-in-out, color .3s ease-in-out;
+    transition: background-color .2s ease-in-out, color .2s ease-in-out;
 }
 
 .button:hover {

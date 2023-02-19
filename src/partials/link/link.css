@@ -1,4 +1,5 @@
 .link {
+    height: 25px;
     text-align: center;
     text-decoration: none;
     color: #4A4E5E;
@@ -7,20 +8,8 @@
 }
 
 .link:hover {
-    opacity: .7;
     cursor: pointer;
+    background: linear-gradient(#ECEDF0, #CDD5E3);
+    box-shadow: 5px 5px 5px rgba(205, 213, 227, 1);
+    border-radius: 50px;
 }
-
-
-/* .error__link {
-    margin: 50px 0 0 0;
-    text-decoration: none;
-    font-size: 50px;
-    font-weight: 700;
-    color: #989CA8;
-}
-
-.error__link:hover {
-    opacity: .7;
-    cursor: pointer;
-} */
