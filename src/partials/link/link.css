@@ -9,7 +9,7 @@
 
 .link:hover {
     cursor: pointer;
-    background: linear-gradient(#ECEDF0, #CDD5E3);
+    /* background: linear-gradient(#ECEDF0, #CDD5E3); */
     box-shadow: 5px 5px 5px rgba(205, 213, 227, 1);
     border-radius: 50px;
 }

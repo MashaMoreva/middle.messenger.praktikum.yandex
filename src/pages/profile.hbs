@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MM's.messenger</title>
+    <link rel="stylesheet" href="../index.css">
+</head>
+
+<body>
+    <section class="profile">
+        <img class="profile__avatar" src="../../static/images/Masha.jpg" alt="Фото профиля">
+        <h3 class="profile__title">Маша</h3>
+        <ul class="profile__list">
+            {{> profile-item/profile-item
+            name="Почта"
+            value="mmiskova@mail.ru"
+            }}
+            {{> profile-item/profile-item
+            name="Имя пользователя"
+            value="MashaMoreva"
+            }}
+            {{> profile-item/profile-item
+            name="Имя"
+            value="Маша"
+            }}
+            {{> profile-item/profile-item
+            name="Фамилия"
+            value="Морева"
+            }}
+            {{> profile-item/profile-item
+            name="Имя в чате"
+            value="Masha"
+            }}
+            {{> profile-item/profile-item
+            name="Номер телефона"
+            value="+7 (909) 379 89 69"
+            }}
+        </ul>
+        <div class="profile__link-list">
+            {{> link/link link="./edit-profile.hbs" text="Изменить данные пользователя"}}
+            {{> link/link link="#" text="Сменить пароль"}}
+            {{> link/link link="./authorization.hbs" text="Выйти"}}
+        </div>
+    </section>
+
+</body>
+
+</html>

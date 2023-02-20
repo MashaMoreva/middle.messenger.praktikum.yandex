@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MM's.messenger</title>
+    <link rel="stylesheet" href="../index.css">
+</head>
+
+<body>
+    <section class="edit-profile">
+        <div class="edit-profile__avatar-container">
+            <img class="profile__avatar" src="../../static/images/Masha.jpg" alt="Фото профиля">
+            <button class="edit-profile__avatar-button"></button>
+        </div>
+        <form class="profile__form">
+            <fieldset class="profile__form-input">
+                {{> profile-input/profile-input
+                label="Почта"
+                value="mmiskova@mail.ru"
+                required="true" type="email" name="email" placeholder="Введите e-mail"
+                }}
+                {{> profile-input/profile-input
+                label="Имя пользователя"
+                value="MashaMoreva"
+                required="true" type="text" name="login" placeholder="Придумайте логин"
+                }}
+                {{> profile-input/profile-input
+                label="Имя"
+                value="Маша"
+                required="true" type="text" name="first_name" placeholder="Введите ваше имя"
+                }}
+                {{> profile-input/profile-input
+                label="Фамилия"
+                value="Морева"
+                required="true" type="text" name="second_name" placeholder="Введите вашу фамилию"
+                }}
+                {{> profile-input/profile-input
+                label="Имя в чате"
+                value="Masha"
+                required="true" type="text" name="display_name" placeholder="Придумайте имя для чата"
+                }}
+                {{> profile-input/profile-input
+                label="Номер телефона"
+                value="+7 (909) 379 89 69"
+                required="true" type="text" name="phone" placeholder="+7 (909) 000-00-00"
+                }}
+            </fieldset>
+            {{> button/button label="Сохранить" }}
+        </form>
+    </section>
+
+</body>
+
+</html>

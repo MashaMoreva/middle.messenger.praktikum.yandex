@@ -16,5 +16,6 @@
     transition: background-color .3s ease-in-out, color .3s ease-in-out;
     background: linear-gradient(#CDD5E3, #989CA8);
     color: #F8F7F8;
-    box-shadow: 5px 5px 10px rgba(74, 78, 94, 0.5);
+    /* box-shadow: 5px 5px 10px rgba(74, 78, 94, 0.5); */
+    box-shadow: 5px 5px 10px rgba(152, 156, 168, 1);
 }

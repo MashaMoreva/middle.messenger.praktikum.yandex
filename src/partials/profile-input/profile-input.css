@@ -1,0 +1,34 @@
+.profile-input {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 20px;
+    border-bottom: 1px solid #716b6a47;;
+}
+
+.profile-input__label {
+    margin: 0;
+    /* text-shadow: 1px 1px 2px #989CA8;
+    color: #525F71; */
+    color: #716B6A;
+    /* text-shadow: 1px 1px 2px #989CA8; */
+}
+
+.profile-input__value {
+    color: #989CA8;
+    font-size: 20px;
+    line-height: 20px;
+    background-color: #F8F7F8;
+    margin: 0;
+    border: none;
+    outline: none;
+    padding: 0;
+    width: 50%;
+    text-align: right;
+}
+
+.profile-input__value:focus {
+    border: none;
+}
