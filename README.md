@@ -30,4 +30,4 @@
 
 
 #### Ссылки
-* [посмотреть на GitHub Netlify](https://superlative-duckanoo-5774e3.netlify.app)
+* [посмотреть на Netlify](https://superlative-duckanoo-5774e3.netlify.app)
