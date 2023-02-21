@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MM's.messenger</title>
+    <link rel="stylesheet" href="../index.css">
+</head>
+
+<body>
+    <section class="chat-list">
+        <div class="chat-icons">
+            <button class="chat__button">
+                <img class="chat__icon" src="../../static/images/add-chat.png" alt="иконка добавления чата">
+            </button>
+            <button class="chat__button">
+                <img class="chat__icon" src="../../static/images/profile.png" alt="иконка профиля">
+            </button>
+        </div>
+        <div class="chat__search">
+            <img class="chat__icon" src="../../static/images/search.png" alt="иконка поиска">
+            <form class="chat__form">
+                <input class="chat__search-input" type="text" placeholder="Найти чат">
+            </form>
+        </div>
+        <ul class="chat-list__list">
+            {{> chat-item/chat-item
+            logo="../../static/images/эми-уайнхаус.png"
+            title="Эми Уайнхаус"
+            text="Я не из тех, кто пытается урвать свои пятнадцать минут славы. Я просто музыкант, и я пытаюсь быть
+            честной."
+            time="04:04"
+            counter="1"
+            }}
+            {{> chat-item/chat-item
+            logo="../../static/images/барак-обама.png"
+            title="Барак Обама"
+            text="Ни одна страна не должна отказывать людям в праве на свободу слова или свободу вероисповедания.
+            Также ни одна страна не должна лишать людей их прав из-за тех, кого они любят."
+            time="07:07"
+            counter="3"
+            }}
+            {{> chat-item/chat-item
+            logo="../../static/images/мэрилин-монро.png"
+            title="Мэрилин Монро"
+            text="То единственное, что хочется больше всего в жизни, как правило, нельзя купить за деньги."
+            time="11:11"
+            counter="4"
+            }}
+        </ul>
+    </section>
+    <section class="chat">
+        <div class="chat__info">
+            <img class="chat__photo" src="../../static/images/friend.png" alt="фото чата">
+        </div>
+        <div class="chat__message">
+            <form class="chat__form">
+                <div class="chat__form-group">
+                    <input class="chat__message-input" type="text" placeholder="Сообщение">
+                    <button class="chat__attach-button">
+                        <img class="chat__attach-image" src="../../static/images/attach.png" alt="иконка прикрепить">
+                    </button>
+                </div>
+                <button class="chat__message-send">
+                    <img class="chat__message-send-image" src="../../static/images/arrow.png"
+                        alt="иконка отправки сообщения">
+                </button>
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>
