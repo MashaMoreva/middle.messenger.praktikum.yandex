@@ -28,7 +28,7 @@ input[placeholder] {
 
 .input__item:focus {
     outline: none;
-    border-bottom: 1px solid #4a4e5e;
+    border-bottom: 1px solid var(--dark-grey);
 }
 
 .input__error {
