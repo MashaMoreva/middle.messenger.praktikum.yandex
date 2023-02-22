@@ -1,0 +1,39 @@
+.input {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.input__label {
+    font-size: 25px;
+    line-height: 25px;
+    text-shadow: 1px 1px 2px #989CA8;
+    color: #525F71;
+    opacity: .9;
+}
+
+.input__item {
+    border: none;
+    padding: 0;
+    background-color: #F8F7F8;
+    font-size: 20px;
+    line-height: 21px;
+    margin-top: 3px;
+    color: #4A4E5E;
+}
+
+input[placeholder] {
+    font-family: 'Tkachenko Sketch 4F', Arial, Helvetica, sans-serif;
+}
+
+.input__item:focus {
+    outline: none;
+    border-bottom: 1px solid var(--dark-grey);
+}
+
+.input__error {
+    color: red;
+    opacity: .5;
+    font-size: 13px;
+    line-height: 13px;
+}

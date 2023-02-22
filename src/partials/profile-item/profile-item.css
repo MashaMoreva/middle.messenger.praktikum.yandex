@@ -1,0 +1,22 @@
+.profile__item {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 20px;
+    border-bottom: 1px solid #716b6a47;;
+}
+
+.profile__item-name {
+    margin: 0;
+    /* text-shadow: 1px 1px 2px #989CA8;
+    color: #525F71; */
+    color: #716B6A;
+    /* text-shadow: 1px 1px 2px #989CA8; */
+}
+
+.profile__item-value {
+    color: #989CA8;
+    margin: 0;
+}

@@ -1,0 +1,15 @@
+.link {
+    height: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--dark-grey);
+    margin: 15px 0 0 0;
+    font-size: 20px;
+}
+
+.link:hover {
+    cursor: pointer;
+    /* background: linear-gradient(#ECEDF0, #CDD5E3); */
+    box-shadow: 5px 5px 5px rgba(205, 213, 227, 1);
+    border-radius: 50px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MM's.messenger</title>
+    <link rel="stylesheet" href="../index.css">
+</head>
+
+<body>
+    <main class="content">
+        <form class="form">
+            <h2 class="form__title">Регистрация</h2>
+            <fieldset class="form__input">
+                {{> input/input
+                label="Почта"
+                required="true" type="email" name="email" placeholder="Введите e-mail"
+                errorText=""
+                }}
+                {{> input/input
+                label="Имя пользователя"
+                required="true" type="text" name="login" placeholder="Придумайте логин"
+                errorText=""
+                }}
+                {{> input/input
+                label="Имя"
+                required="true" type="text" name="first_name" placeholder="Введите ваше имя"
+                errorText=""
+                }}
+                {{> input/input
+                label="Фамилия"
+                required="true" type="text" name="second_name" placeholder="Введите вашу фамилию"
+                errorText=""
+                }}
+                {{> input/input
+                label="Номер телефона"
+                required="true" type="text" name="phone" placeholder="+7 (909) 000-00-00"
+                errorText=""
+                }}
+                {{> input/input
+                label="Пароль"
+                required="true" type="password" name="password" placeholder="Придумайте пароль"
+                }}
+                {{> input/input
+                label="Повторите пароль"
+                required="true" type="password" name="password" placeholder="Введите пароль ещё раз"
+                }}
+            </fieldset>
+            {{> button/button label="Создать пользователя" }}
+            {{> link/link link="./authorization.hbs" text="Войти"}}
+        </form>
+    </main>
+</body>
+
+</html>
